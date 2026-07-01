@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bn5tj83y6ucls"]
+
+[ext_resource type="Script" uid="uid://flpim4kubcpu" path="res://Assets/Scripts/CamControl.cs" id="1_4ejv0"]
+
+[node name="Test" type="Node3D" unique_id=1043340690]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=556899106]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.6825922)
+
+[node name="Marker3D" type="Marker3D" parent="." unique_id=1792894065]
+
+[node name="Camera3D" type="Camera3D" parent="Marker3D" unique_id=616534636]
+script = ExtResource("1_4ejv0")
